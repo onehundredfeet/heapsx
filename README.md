@@ -9,6 +9,7 @@ Some additional features include:
 
 - An entity component system (ECS)
 - Reliable UDP communication
+- Cross platform high resolution timer
 - Bit-level compression for network communication
 - 3D Physics
 - 2D Physics

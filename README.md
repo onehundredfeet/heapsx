@@ -1,5 +1,5 @@
 # heapsx
-A Haxe engine built on heaps.  
+A Haxe engine built on heaps.io.  
 
 
 
@@ -15,3 +15,8 @@ Some additional features include:
 - And more to come
 - An integration with Hide (The Shiro games editor)
 - CastleDB out of the box
+- A unified foreign function interface (FFI)
+
+
+Currently, the engine targets hashlink only. That could be extended over time, but the low level integrations require hashlink's integration API.
+

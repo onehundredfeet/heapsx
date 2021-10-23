@@ -8,6 +8,7 @@ Haxe and Heaps are amazing game technologies.  They are great out of the box and
 Some additional features include:
 
 - An entity component system (ECS)
+- AI Pathfinding and Navmesh generation
 - Reliable UDP communication
 - hxbit support across UDP
 - Cross platform high resolution timer

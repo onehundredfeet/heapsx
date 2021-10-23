@@ -18,5 +18,5 @@ Some additional features include:
 - A unified foreign function interface (FFI)
 
 
-Currently, the engine targets hashlink only. That could be extended over time, but the low level integrations require hashlink's integration API.
+Currently, the engine targets hashlink and HL/C only. That could be extended over time, but the low level integrations require hashlink's integration API.
 

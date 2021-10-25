@@ -15,10 +15,10 @@ Some additional features include:
 - Bit-level compression for network communication (hxbit & custom bitcompression)
 - 3D Physics (Bullet)
 - 2D Physics (Chipmunk)
-- And more to come
 - An integration with Hide (The Shiro games editor)
 - CastleDB out of the box
 - A unified foreign function interface (FFI)
+- And more to come
 
 
 Currently, the engine targets hashlink and HL/C only. That could be extended over time, but the low level integrations require hashlink's integration API.

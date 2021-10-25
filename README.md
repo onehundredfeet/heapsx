@@ -1,5 +1,5 @@
 # heapsx
-A Haxe engine built on heaps.io.  
+A Haxe game engine built on heaps.io.  
 
 
 

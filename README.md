@@ -7,14 +7,14 @@ Haxe and Heaps are amazing game technologies.  They are great out of the box and
 
 Some additional features include:
 
-- An entity component system (ECS)
-- AI Pathfinding and Navmesh generation
-- Reliable UDP communication
+- An entity component system (hcqe - based on Echo ECS)
+- AI Pathfinding and Navmesh generation (Recast)
+- Reliable UDP communication (Yojimbo)
 - hxbit support across UDP
 - Cross platform high resolution timer
-- Bit-level compression for network communication
-- 3D Physics
-- 2D Physics
+- Bit-level compression for network communication (hxbit & custom bitcompression)
+- 3D Physics (Bullet)
+- 2D Physics (Chipmunk)
 - And more to come
 - An integration with Hide (The Shiro games editor)
 - CastleDB out of the box

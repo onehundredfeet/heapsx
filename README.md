@@ -1,8 +1,12 @@
 # heapsx
 A Haxe game engine built on heaps.io.  
 
+# status
 
 THIS REPO IS A WORK IN PROGRESS, DO NOT USE UNTIL THIS MESSGE IS REMOVED
+
+# acknowledgement
+Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc.  
 
 Haxe and Heaps are amazing game technologies.  They are great out of the box and also easily extensible. Shiro games uses a tech stack that is slightly larger than vanilla Heaps.  Inspired by that, I wanted to assemble a suite of haxe libraries that provided a stronger start to build a networked multiplayer game.  This tech stack will work for any game, but it is intended to reach a few more places that vanilla heaps doesn't.
 

@@ -37,3 +37,6 @@
 [submodule "hscript"]
 	path = hscript
 	url = https://github.com/HaxeFoundation/hscript.git
+[submodule "domkit"]
+	path = domkit
+	url = https://github.com/HeapsIO/domkit.git

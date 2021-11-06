@@ -15,7 +15,7 @@
 	url = https://github.com/onehundredfeet/hxbit.git
 [submodule "heaps"]
 	path = heaps
-	url = https://github.com/HeapsIO/heaps.git
+	url = https://github.com/onehundredfeet/heaps.git
 [submodule "castle"]
 	path = castle
 	url = https://github.com/onehundredfeet/castle.git

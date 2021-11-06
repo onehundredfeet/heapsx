@@ -1,0 +1,4 @@
+--class-path .
+--library heapsx
+-hl bin/test.hl
+--main Test

@@ -31,3 +31,6 @@
 [submodule "hcqe"]
 	path = hcqe
 	url = https://github.com/onehundredfeet/hcqe.git
+[submodule "format"]
+	path = format
+	url = https://github.com/HaxeFoundation/format.git

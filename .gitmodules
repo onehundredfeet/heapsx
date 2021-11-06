@@ -34,3 +34,6 @@
 [submodule "format"]
 	path = format
 	url = https://github.com/HaxeFoundation/format.git
+[submodule "hscript"]
+	path = hscript
+	url = https://github.com/HaxeFoundation/hscript.git

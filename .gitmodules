@@ -1,0 +1,30 @@
+[submodule "hide"]
+	path = hide
+	url = https://github.com/onehundredfeet/hide.git
+[submodule "heaps-yojimbo"]
+	path = heaps-yojimbo
+	url = https://github.com/onehundredfeet/heaps-yojimbo.git
+[submodule "hl-idl"]
+	path = hl-idl
+	url = https://github.com/onehundredfeet/hl-idl.git
+[submodule "hl-yojimbo"]
+	path = hl-yojimbo
+	url = https://github.com/onehundredfeet/hl-yojimbo.git
+[submodule "hxbit"]
+	path = hxbit
+	url = https://github.com/onehundredfeet/hxbit.git
+[submodule "heaps"]
+	path = heaps
+	url = https://github.com/HeapsIO/heaps.git
+[submodule "castle"]
+	path = castle
+	url = https://github.com/onehundredfeet/castle.git
+[submodule "hl-chipmunk2d"]
+	path = hl-chipmunk2d
+	url = https://github.com/onehundredfeet/hl-chipmunk2d.git
+[submodule "hl-recast"]
+	path = hl-recast
+	url = https://github.com/onehundredfeet/hl-recast.git
+[submodule "hl-bullet"]
+	path = hl-bullet
+	url = https://github.com/onehundredfeet/hl-bullet.git

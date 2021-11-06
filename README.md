@@ -42,12 +42,14 @@ We will include several examples to show how you get started with the engine.
 - Premake5
 - Cmake
 
-# Getting
+# Getting Started
 - First clone this repo
 - Make sure you have the requirements installed
-- Run the init.sh( or .bat for windows) to get and initialize all submodules
-- Run the build.sh( or .bat for windows) to get and initialize all submodules
+- Run the `init.sh`( or .bat for windows) to get and initialize all submodules
+- Run the `build.sh`( or .bat for windows) to get and initialize all submodules
+- run `setup.sh <projectdir>` This creates a `.haxelib` directory inside the target directory. It will then create links back to these directories for each of the subprojects.  You can then use `haxelib` to install any additional libraries inside the project directory.  Haxe will not search your regular haxelib paths.  We do this to reduce version conflicts inside the project.
+- create a Heaps application inside your project directory
+- Add `heapsx` as a library to the application when compiling with haxe (`--library heapsx`).  You do NOT need to add each of the submodules as libraries.  In fact, you should likely remove them.  All the class paths are referenced by the central heapsx haxelib.json. 
 
-# Using
-- run `haxelib dev heaps <path to heapsx>` This makes haxelib aware of where to find the library.  Due to the requirements of building all the dependencies, we can not make the library directly available through haxelib.
+
 

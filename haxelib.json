@@ -6,6 +6,20 @@
 	"description" : "Extension to the amazing Heaps.io engine.",
 	"version" : "0.1.0",
 	"releasenote" : "",
-	"classPath": ["castle", "domkit", "format", "hcqe","heaps", "hcqe","heaps-yojimbo","hide", "hl-bullet", "hl-chipmunk2d", "hl-idl", "hl-recast", "hl-yojimbo", "hxbit", "hscript"],
-	"dependencies": { "hl-idl" : ""}
+	"dependencies": { 
+		"castle" : "", 
+		"domkit": "", 
+		"format": "", 
+		"heaps": "", 
+		"hcqe": "", 
+		"heaps-yojimbo": "", 
+		"hide": "", 
+		"hl-bullet": "", 
+		"hl-chipmunk2d": "", 
+		"hl-idl": "", 
+		"hl-recast": "", 
+		"hl-yojimbo": "", 
+		"hxbit": "", 
+		"hscript": ""
+	}
 }

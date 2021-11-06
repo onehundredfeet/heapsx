@@ -47,9 +47,9 @@ We will include several examples to show how you get started with the engine.
 - Make sure you have the requirements installed
 - Run the `init.sh`( or .bat for windows) to get and initialize all submodules
 - Run the `build.sh`( or .bat for windows) to get and initialize all submodules
-- run `setup.sh <projectdir>` This creates a `.haxelib` directory inside the target directory. It will then create links back to these directories for each of the subprojects.  You can then use `haxelib` to install any additional libraries inside the project directory.  Haxe will not search your regular haxelib paths.  We do this to reduce version conflicts inside the project.
+- run `setup.sh <projectdir>` This creates a `.haxelib` directory inside the target directory. It will then create links back to these directories for each of the subprojects.  You can then use `haxelib` to install any additional libraries inside the project directory.  Haxe will not search your regular haxelib paths.  We do this to reduce version conflicts inside the project. This will `NOT` overwrite any other parts of the project directory.  You can safely re-run this script.
 - create a Heaps application inside your project directory
-- Add `heapsx` as a library to the application when compiling with haxe (`--library heapsx`).  You do NOT need to add each of the submodules as libraries.  In fact, you should likely remove them.  All the class paths are referenced by the central heapsx haxelib.json. 
+- Add `heapsx` as a library to the application when compiling with haxe (`--library heapsx`).  You do NOT need to add each of the submodules as libraries.  In fact, you should likely remove them as they will be implicitely added through the haxelib dependency system.
 
 
 

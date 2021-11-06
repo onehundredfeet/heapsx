@@ -28,3 +28,6 @@
 [submodule "hl-bullet"]
 	path = hl-bullet
 	url = https://github.com/onehundredfeet/hl-bullet.git
+[submodule "hcqe"]
+	path = hcqe
+	url = https://github.com/onehundredfeet/hcqe.git

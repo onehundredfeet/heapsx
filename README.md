@@ -57,7 +57,7 @@ We will include several examples to show how you get started with the engine.
 
 Heapsx is a collection of libraries that work well together to create an engine.  All of these libraries can be used on their own in separate projects.  The `hl-` libraries have been built with this collection in mind.  Below is a list of all the libraries included with Heapsx.
 
-** Wherever possible we use libraries that are currently maintained and up to date with the latest Haxe **
+**Wherever possible we use libraries that are currently maintained and up to date with the latest Haxe**
 
 * castle - game data database
 * domkit - High level UI toolkit

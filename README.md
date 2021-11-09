@@ -1,16 +1,14 @@
 # heapsx
-A Haxe game engine built on heaps.io.  
+A Haxe game engine toolkit built on heaps.io.  
 
-# status
+# Status
 
 THIS REPO IS A WORK IN PROGRESS, DO NOT USE UNTIL THIS MESSGE IS REMOVED
 
-# acknowledgement
-Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc.  
+# Acknowledgement
+Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc. They are amazing game technologies.  They are great out of the box and also easily extensible. Shiro games uses a tech stack that is slightly larger than vanilla Heaps.  Inspired by that, I wanted to assemble a suite of haxe libraries that provided a stronger start to build a networked multiplayer game.  This tech stack will work for any game, but it is intended to reach a few more places that vanilla heaps doesn't.
 
-Haxe and Heaps are amazing game technologies.  They are great out of the box and also easily extensible. Shiro games uses a tech stack that is slightly larger than vanilla Heaps.  Inspired by that, I wanted to assemble a suite of haxe libraries that provided a stronger start to build a networked multiplayer game.  This tech stack will work for any game, but it is intended to reach a few more places that vanilla heaps doesn't.
-
-Some additional features include:
+# Features beyond Heaps
 
 - An entity component system (hcqe - based on Echo ECS)
 - AI Pathfinding and Navmesh generation (Recast)
@@ -25,7 +23,7 @@ Some additional features include:
 - A unified foreign function interface (FFI)
 - And more to come
 
-
+# Platforms
 Currently, the engine targets hashlink and HL/C only. That could be extended over time, but the low level integrations require hashlink's integration API.
 
 # Structure

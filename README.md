@@ -81,3 +81,4 @@ Heapsx is a collection of libraries that work well together to create an engine.
 ## Libaries Coming Soon-ish
 * AI
 * WWise
+* Vulkan

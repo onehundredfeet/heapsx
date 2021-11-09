@@ -1,0 +1,6 @@
+--class-path .
+-lib hcqe
+-lib heaps
+-lib hl-yojimbo
+-lib heaps-yojimbo
+-lib hvector

@@ -80,5 +80,6 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * tink_core - Haxe tools
 * tink_macro - Macro tools
 
-# Coming Soon-ish
+## Libaries Coming Soon-ish
 * AI
+* WWise

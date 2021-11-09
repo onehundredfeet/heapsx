@@ -42,14 +42,43 @@ We will include several examples to show how you get started with the engine.
 - Premake5
 - Cmake
 
-# Getting Started
+# Installing
 - First clone this repo
 - Make sure you have the requirements installed
 - Run the `init.sh`( or .bat for windows) to get and initialize all submodules
 - Run the `build.sh`( or .bat for windows) to get and initialize all submodules
-- run `setup.sh <projectdir>` This creates a `.haxelib` directory inside the target directory. It will then create links back to these directories for each of the subprojects.  You can then use `haxelib` to install any additional libraries inside the project directory.  Haxe will not search your regular haxelib paths.  We do this to reduce version conflicts inside the project. This will `NOT` overwrite any other parts of the project directory.  You can safely re-run this script.
+
+# Setting up a project
+- run `setup.sh <projectdir>` This creates a `.haxelib` directory inside the target directory. It will then create links back to these directories for each of the subprojects.  You can then use `haxelib` to install any additional libraries inside the project directory.  Haxe will not search your regular haxelib paths.  We do this to reduce version conflicts inside the project. This will `NOT` overwrite any other parts of the project directory.  **You can safely re-run this script.**
 - create a Heaps application inside your project directory
 - Add `heapsx` as a library to the application when compiling with haxe (`--library heapsx`).  You do NOT need to add each of the submodules as libraries.  In fact, you should likely remove them as they will be implicitely added through the haxelib dependency system.
 
+# Included Libraries
 
+Heapsx is a collection of libraries that work well together to create an engine.  All of these libraries can be used on their own in separate projects.  The `hl-` libraries have been built with this collection in mind.  Below is a list of all the libraries included with Heapsx.
 
+** Wherever possible we use libraries that are currently maintained and up to date with the latest Haxe **
+
+* castle - game data database
+* domkit - High level UI toolkit
+* format - IO Formats
+* haxe-concurrent - Threads and synchronization
+* hcqe - Entity Component System
+* heaps - Mid-Level Input, Graphics, Sound
+* heaps-yojimbo - High level network synchronization
+* hide - Game Editor
+* hlsdl - Low level graphcs, input & sound
+* hl-bullet - 3D Physics
+* hl-chipmunk2d - 2D Physics
+* hl-idl - Foreign function adapter library
+* hl-recast - Pathfinding
+* hl-yojimbo - Mid-level reliable UDP layer
+* hscript - Runtime scripting
+* hvector - Low level 3D Math, akin to GLSL
+* hxbit - Low level network library
+* signals - Reactive programming
+* tink_core - Haxe tools
+* tink_macro - Macro tools
+
+# Coming Soon-ish
+* AI

@@ -25,7 +25,6 @@ makedev $1 "hl-idl"
 makedev $1 "hl-recast"
 makedev $1 "hl-yojimbo"
 makedev $1 "hxbit"
-#makedev $1 "hscript"
 makedev $1 "hvector"
 
 mkdir -p $1/.haxelib/heapsx
@@ -35,6 +34,8 @@ pushd $1 &> /dev/null
 haxelib install hscript
 haxelib install tink_macro
 haxelib install hlsdl
+haxelib install haxe-concurrent
+haxelib install signals
 popd &> /dev/null
 
 echo "Completed setting up $1"

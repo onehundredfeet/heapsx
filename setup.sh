@@ -32,10 +32,10 @@ echo $PWD > $1/.haxelib/heapsx/.dev
 
 pushd $1 &> /dev/null
 haxelib install hscript
+haxelib install tink_core
 haxelib install tink_macro
 haxelib install hlsdl
 haxelib install haxe-concurrent
-haxelib install signals
 popd &> /dev/null
 
 echo "Completed setting up $1"

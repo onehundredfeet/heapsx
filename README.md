@@ -74,8 +74,7 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * hscript - Runtime scripting
 * hvector - Low level 3D Math, akin to GLSL
 * hxbit - Low level network library
-* signals - Reactive programming
-* tink_core - Haxe tools
+* tink_core - Signals for reactive programming & misc. language extensions
 * tink_macro - Macro tools
 
 ## Libaries Coming Soon-ish

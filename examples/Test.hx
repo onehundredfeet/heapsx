@@ -16,9 +16,9 @@ class TestECSSystem extends heapsx.ecs.System {
 }
 
 // Heaps App - No extra infrastructure required
-class Test extends heapsx.app.App {
+class Test extends heapsx.app.AppBase {
     final MAX_MESSGES_TYPES = 10;
-
+ 
    override function init() { 
         heapsx.net.Log.setLogLevel(YOJIMBO_LOG_LEVEL_INFO);
         heapsx.net.Net.initialize(MAX_MESSGES_TYPES);

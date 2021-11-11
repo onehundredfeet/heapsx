@@ -1,5 +1,12 @@
 package heapsx.app;
 
-class App extends hxd.App {
+
+@:forward
+@:forward.new
+abstract App(hxd.App) from hxd.App to hxd.App{
+
+}
+
+class AppBase extends hxd.App {
     
 }

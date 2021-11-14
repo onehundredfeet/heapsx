@@ -43,3 +43,6 @@
 [submodule "hvector"]
 	path = hvector
 	url = https://github.com/onehundredfeet/hvector.git
+[submodule "hlsteam"]
+	path = hlsteam
+	url = https://github.com/HeapsIO/hlsteam.git

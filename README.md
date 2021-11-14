@@ -21,6 +21,7 @@ Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc. 
 - An integration with Hide (The Shiro games editor)
 - CastleDB out of the box
 - A unified foreign function interface (FFI)
+- Steam integration
 - And more to come
 
 # Platforms
@@ -76,8 +77,11 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * hxbit - Low level network library
 * tink_core - Signals for reactive programming & misc. language extensions
 * tink_macro - Macro tools
+* hlsteam - Steam integration
 
 ## Libaries Coming Soon-ish
 * AI
 * WWise
 * Vulkan
+* Cloud services
+* Epic Store

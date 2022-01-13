@@ -46,3 +46,6 @@
 [submodule "hlsteam"]
 	path = hlsteam
 	url = https://github.com/HeapsIO/hlsteam.git
+[submodule "differx"]
+	path = differx
+	url = https://github.com/onehundredfeet/differx.git

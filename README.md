@@ -58,7 +58,7 @@ Heapsx is a collection of libraries that work well together to create an engine.
 
 **Wherever possible we use libraries that are currently maintained and up to date with the latest Haxe**
 
-* castle - Game data & tunables database
+* castle - Game data & tunables database `(Forked to add curves)`
 * domkit - High level UI toolkit
 * differx - Simple 2D collision detection
 * format - IO Formats
@@ -66,7 +66,7 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * hcqe - Entity Component System
 * heaps - Mid-Level Input, Graphics, Sound
 * heaps-yojimbo - High level network synchronization
-* hide - Game Editor
+* hide - Game Editor `(Forked to add curves to castle)`
 * hlsdl - Low level graphcs, input & sound
 * hl-bullet - 3D Physics `(Under construction)`
 * hl-chipmunk2d - 2D Physics `(Under construction)`

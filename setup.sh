@@ -14,9 +14,10 @@ mkdir -p $1/.haxelib
 
 makedev $1 "castle"
 makedev $1 "domkit"
+makedev $1 "differx"
 makedev $1 "format"
-makedev $1 "heaps"
 makedev $1 "hcqe"
+makedev $1 "heaps"
 makedev $1 "heaps-yojimbo"
 makedev $1 "hide"
 makedev $1 "hl-bullet"
@@ -36,6 +37,9 @@ haxelib install tink_core
 haxelib install tink_macro
 haxelib install hlsdl
 haxelib install haxe-concurrent
+haxelib install seedyrng
+haxelib install signals
+
 popd &> /dev/null
 
 echo "Completed setting up $1"

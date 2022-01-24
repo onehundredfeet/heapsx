@@ -13,6 +13,8 @@ haxelib upgrade tink_core
 haxelib upgrade tink_macro
 haxelib upgrade hlsdl
 haxelib upgrade haxe-concurrent
+haxelib install seedyrng
+
 popd &> /dev/null
 
 echo "Completed setting up $1"

@@ -58,8 +58,9 @@ Heapsx is a collection of libraries that work well together to create an engine.
 
 **Wherever possible we use libraries that are currently maintained and up to date with the latest Haxe**
 
-* castle - game data database
+* castle - Game data & tunables database
 * domkit - High level UI toolkit
+* differx - Simple 2D collision detection
 * format - IO Formats
 * haxe-concurrent - Threads and synchronization
 * hcqe - Entity Component System
@@ -67,19 +68,21 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * heaps-yojimbo - High level network synchronization
 * hide - Game Editor
 * hlsdl - Low level graphcs, input & sound
-* hl-bullet - 3D Physics
-* hl-chipmunk2d - 2D Physics
+* hl-bullet - 3D Physics `(Under construction)`
+* hl-chipmunk2d - 2D Physics `(Under construction)`
 * hl-idl - Foreign function adapter library
-* hl-recast - Pathfinding
+* hl-recast - Pathfinding `(Under construction)`
 * hl-yojimbo - Mid-level reliable UDP layer
+* hlsteam - Steam integration
 * hscript - Runtime scripting
 * hvector - Low level 3D Math, akin to GLSL
 * hxbit - Low level network library
-* tink_core - Signals for reactive programming & misc. language extensions
+* seedyrng - Better random numbers
+* signals - Reactive style event handling
+* tink_core - Misc. language extensions
 * tink_macro - Macro tools
-* hlsteam - Steam integration
 
-## Libaries Coming Soon-ish
+## Libaries Coming Soon-ish-or-later-ish
 * AI
 * WWise
 * Vulkan

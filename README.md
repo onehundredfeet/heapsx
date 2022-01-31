@@ -10,7 +10,7 @@ Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc. 
 
 # Features beyond Heaps
 
-- An entity component system (hcqe - based on Echo ECS)
+- An entity component system (hmecs - based on Echo ECS)
 - AI Pathfinding and Navmesh generation (Recast)
 - Reliable UDP communication (Yojimbo)
 - hxbit support across UDP
@@ -63,7 +63,7 @@ Heapsx is a collection of libraries that work well together to create an engine.
 * differx - Simple 2D collision detection
 * format - IO Formats
 * haxe-concurrent - Threads and synchronization
-* hcqe - Entity Component System
+* hmecs - Entity Component System
 * heaps - Mid-Level Input, Graphics, Sound
 * heaps-yojimbo - High level network synchronization
 * hide - Game Editor `(Forked to add curves to castle)`

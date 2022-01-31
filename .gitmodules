@@ -46,3 +46,6 @@
 [submodule "differx"]
 	path = differx
 	url = https://github.com/onehundredfeet/differx.git
+[submodule "hmecs"]
+	path = hmecs
+	url = https://github.com/onehundredfeet/hmecs.git

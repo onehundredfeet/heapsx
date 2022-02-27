@@ -1,6 +1,6 @@
-[submodule "hide"]
-	path = hide
-	url = https://github.com/onehundredfeet/hide.git
+[submodule "hidex"]
+	path = hidex
+	url = https://github.com/onehundredfeet/hidex.git
 [submodule "heaps-yojimbo"]
 	path = heaps-yojimbo
 	url = https://github.com/onehundredfeet/heaps-yojimbo.git
@@ -16,9 +16,9 @@
 [submodule "heaps"]
 	path = heaps
 	url = https://github.com/onehundredfeet/heaps.git
-[submodule "castle"]
-	path = castle
-	url = https://github.com/onehundredfeet/castle.git
+[submodule "castledbx"]
+	path = castledbx
+	url = https://github.com/onehundredfeet/castledbx.git
 [submodule "hl-chipmunk2d"]
 	path = hl-chipmunk2d
 	url = https://github.com/onehundredfeet/hl-chipmunk2d.git

@@ -1,5 +1,5 @@
 #!/bin/sh
-git submodule update --remote --recursive --merge
+git submodule update --remote --merge
 
 if [ -z "$1" ] 
 then
@@ -13,7 +13,8 @@ haxelib upgrade tink_core
 haxelib upgrade tink_macro
 haxelib upgrade hlsdl
 haxelib upgrade haxe-concurrent
-haxelib install seedyrng
+haxelib upgrade seedyrng
+haxelib upgrade signals
 
 popd &> /dev/null
 

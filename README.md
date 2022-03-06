@@ -42,7 +42,7 @@ We will include several examples to show how you get started with the engine.
 - Cmake
 
 # Installing
-- First clone this repo
+- First clone this repo into a central location or subdirectory outside your project source
 - Make sure you have the requirements installed
 - Run the `init.sh`( or .bat for windows) to get and initialize all submodules
 - Run the `build.sh`( or .bat for windows) to get and initialize all submodules

@@ -55,3 +55,6 @@
 [submodule "tink_macro"]
 	path = tink_macro
 	url = https://github.com/haxetink/tink_macro.git
+[submodule "hai"]
+	path = hai
+	url = https://github.com/onehundredfeet/hai.git

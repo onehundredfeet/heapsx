@@ -9,8 +9,6 @@ echo "Using direcotry $1"
 
 pushd $1 &> /dev/null
 haxelib upgrade hscript
-haxelib upgrade tink_core
-haxelib upgrade tink_macro
 haxelib upgrade hlsdl
 haxelib upgrade haxe-concurrent
 haxelib upgrade seedyrng

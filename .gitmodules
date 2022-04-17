@@ -49,3 +49,9 @@
 [submodule "castledbx"]
 	path = castledbx
 	url = https://github.com/onehundredfeet/castledbx.git
+[submodule "tink_core"]
+	path = tink_core
+	url = https://github.com/haxetink/tink_core.git
+[submodule "tink_macro"]
+	path = tink_macro
+	url = https://github.com/haxetink/tink_macro.git

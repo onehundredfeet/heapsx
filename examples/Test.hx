@@ -1,7 +1,12 @@
 import hvector.ShaderMath;
 import hvector.Vec2;
+import heapsx.app.App;
+import ecs.System;
+import ecs.Workflow;
+import ecs.Entity;
+
 // ECS
-class TestECSSystem extends heapsx.ecs.System {
+class TestECSSystem extends ecs.System {
     public function new() {
 
     }
@@ -20,14 +25,15 @@ class Test extends heapsx.app.AppBase {
     final MAX_MESSGES_TYPES = 10;
  
    override function init() { 
+        
         heapsx.net.Log.setLogLevel(YOJIMBO_LOG_LEVEL_INFO);
         heapsx.net.Net.initialize(MAX_MESSGES_TYPES);
         //Adds the system to the ECS global list
         //Added events will start functioning
-        heapsx.ecs.Workflow.addSystem(new TestECSSystem());
+        ecs.Workflow.addSystem(new TestECSSystem());
         
         // Create a new entity (automatically added)
-        var e = new heapsx.ecs.Entity();
+        var e = new Entity();
         // Attach a component to the entity, will trigger the ecs addition
         e.add(new h2d.Text(hxd.res.DefaultFont.get(), s2d));
     }

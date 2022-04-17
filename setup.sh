@@ -28,14 +28,14 @@ makedev $1 "hl-yojimbo"
 makedev $1 "hxbit"
 makedev $1 "hvector"
 makedev $1 "hlsteam"
+makedev $1 "tink_core"
+makedev $1 "tink_macro"
 
 mkdir -p $1/.haxelib/heapsx
 echo $PWD > $1/.haxelib/heapsx/.dev
 
 pushd $1 &> /dev/null
 haxelib install hscript
-haxelib install tink_core
-haxelib install tink_macro
 haxelib install hlsdl
 haxelib install haxe-concurrent
 haxelib install seedyrng

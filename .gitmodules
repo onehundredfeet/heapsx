@@ -70,3 +70,6 @@
 [submodule "signals"]
 	path = signals
 	url = https://github.com/peteshand/signals.git
+[submodule "hashlink"]
+	path = hashlink
+	url = https://github.com/onehundredfeet/hashlink.git

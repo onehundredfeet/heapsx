@@ -38,6 +38,10 @@ makedev $1 "signals"
 mkdir -p $1/.haxelib/heapsx
 echo $PWD > $1/.haxelib/heapsx/.dev
 
+mkdir -p $1/.haxelib/hlsdl
+echo "$PWD/hashlink/libs/sdl" > $1/.haxelib/hlsdl/.dev
+
+
 pushd $1 &> /dev/null
 haxelib install hscript
 #haxelib install hlsdl

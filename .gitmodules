@@ -58,3 +58,6 @@
 [submodule "hl-forge"]
 	path = hl-forge
 	url = https://github.com/onehundredfeet/hl-forge
+[submodule "heaps"]
+	path = heaps
+	url = https://github.com/onehundredfeet/heaps.git

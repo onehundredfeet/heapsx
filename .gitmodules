@@ -61,3 +61,12 @@
 [submodule "heaps"]
 	path = heaps
 	url = https://github.com/onehundredfeet/heaps.git
+[submodule "haxe-concurrent"]
+	path = haxe-concurrent
+	url = https://github.com/vegardit/haxe-concurrent.git
+[submodule "seedyrng"]
+	path = seedyrng
+	url = https://github.com/chfoo/seedyrng/
+[submodule "signals"]
+	path = signals
+	url = https://github.com/peteshand/signals.git

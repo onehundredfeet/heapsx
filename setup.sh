@@ -23,6 +23,7 @@ makedev $1 "hidex"
 makedev $1 "hl-bullet"
 makedev $1 "hl-chipmunk2d"
 makedev $1 "hl-idl"
+makedev $1 "hl-forge"
 makedev $1 "hl-recast"
 makedev $1 "hl-yojimbo"
 makedev $1 "hxbit"
@@ -30,16 +31,16 @@ makedev $1 "hvector"
 makedev $1 "hlsteam"
 makedev $1 "tink_core"
 makedev $1 "tink_macro"
+makedev $1 "haxe-concurrent"
+makedev $1 "seedyrng"
+makedev $1 "signals"
 
 mkdir -p $1/.haxelib/heapsx
 echo $PWD > $1/.haxelib/heapsx/.dev
 
 pushd $1 &> /dev/null
 haxelib install hscript
-haxelib install hlsdl
-haxelib install haxe-concurrent
-haxelib install seedyrng
-haxelib install signals
+#haxelib install hlsdl
 
 popd &> /dev/null
 

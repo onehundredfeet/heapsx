@@ -11,16 +11,17 @@ Nicolas Cannasse et. all have built an amazing tech stack with Haxe, Heaps etc. 
 # Features beyond Heaps
 
 - An entity component system (hmecs - based on Echo ECS)
+- DX12 / Vulkan / Metal rendering for heaps.io (hl-forge)
 - AI Pathfinding and Navmesh generation (Recast)
 - Reliable UDP communication (Yojimbo)
-- hxbit support across UDP
-- Cross platform high resolution timer
+    - hxbit support across UDP
+    - Cross platform high resolution timer
 - Bit-level compression for network communication (hxbit & custom bitcompression)
 - 3D Physics (Bullet)
 - 2D Physics (Chipmunk)
 - An integration with Hide (The Shiro games editor)
 - CastleDB out of the box
-- A unified foreign function interface (FFI)
+- A unified foreign function interface (hl-idl)
 - Steam integration
 - And more to come
 
@@ -37,6 +38,7 @@ We will include several examples to show how you get started with the engine.
 
 # Requirements
 - Hashink version 1.12+ (This is important. We use features in Hashlink not present before 1.12)
+- Haxe - Requires 4.3.0-rc.1 which currently can only be built from the dev branch
 - Git
 - Premake5
 - Cmake

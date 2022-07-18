@@ -10,9 +10,6 @@
 [submodule "hxbit"]
 	path = hxbit
 	url = https://github.com/onehundredfeet/hxbit.git
-[submodule "heaps"]
-	path = heaps
-	url = https://github.com/onehundredfeet/heaps.git
 [submodule "hl-chipmunk2d"]
 	path = hl-chipmunk2d
 	url = https://github.com/onehundredfeet/hl-chipmunk2d.git
@@ -58,3 +55,6 @@
 [submodule "hai"]
 	path = hai
 	url = https://github.com/onehundredfeet/hai.git
+[submodule "hl-forge"]
+	path = hl-forge
+	url = https://github.com/onehundredfeet/hl-forge

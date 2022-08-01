@@ -73,3 +73,6 @@
 [submodule "hashlink"]
 	path = hashlink
 	url = https://github.com/onehundredfeet/hashlink.git
+[submodule "haxe-strings"]
+	path = haxe-strings
+	url = https://github.com/vegardit/haxe-strings.git

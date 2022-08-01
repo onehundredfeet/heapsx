@@ -17,7 +17,9 @@ makedev $1 "domkit"
 makedev $1 "differx"
 makedev $1 "format"
 makedev $1 "hmecs"
+makedev $1 "hai"
 makedev $1 "heaps"
+makedev $1 "haxe-strings"
 makedev $1 "heaps-yojimbo"
 makedev $1 "hidex"
 makedev $1 "hl-bullet"
@@ -40,11 +42,12 @@ echo $PWD > $1/.haxelib/heapsx/.dev
 
 mkdir -p $1/.haxelib/hlsdl
 echo "$PWD/hashlink/libs/sdl" > $1/.haxelib/hlsdl/.dev
+mkdir -p $1/.haxelib/hlopenal
+echo "$PWD/hashlink/libs/hlopenal" > $1/.haxelib/hlopenal/.dev
 
 
 pushd $1 &> /dev/null
 haxelib install hscript
-#haxelib install hlsdl
 
 popd &> /dev/null
 

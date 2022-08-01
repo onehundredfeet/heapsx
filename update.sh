@@ -9,10 +9,6 @@ echo "Using direcotry $1"
 
 pushd $1 &> /dev/null
 haxelib upgrade hscript
-haxelib upgrade hlsdl
-haxelib upgrade haxe-concurrent
-haxelib upgrade seedyrng
-haxelib upgrade signals
 
 popd &> /dev/null
 

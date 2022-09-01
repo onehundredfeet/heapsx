@@ -76,3 +76,6 @@
 [submodule "haxe-strings"]
 	path = haxe-strings
 	url = https://github.com/vegardit/haxe-strings.git
+[submodule "thx.core"]
+	path = thx.core
+	url = https://github.com/fponticelli/thx.core.git
